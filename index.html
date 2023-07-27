@@ -45,7 +45,7 @@
 <body class="font-lato">
 
     <header class="container mx-auto">
-        <nav class="flex navbar justify-around text-white rounded-full h-24 text-base font-semibold bg-[#F85559]">
+        <nav class="lg:flex hidden navbar justify-around text-white rounded-full h-24 text-base font-semibold bg-[#F85559]">
             <div class="flex gap-6">
                 <a class="link link-hover" href="">Home</a>
                 <a class="link link-hover" href="">About Us</a>
@@ -77,7 +77,7 @@
                             </h1>
                             <p class="text-lg font-medium my-5">We supply highly quality organic products</p>
                             <button
-                                class="btn btn-error rounded-full text-white text-lg font-extrabold text-center px-7">Shop
+                                class="btn btn-error rounded-full text-white text-lg font-extrabold text-center px-7 h-16">Shop
                                 Now</button>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             </h1>
                             <p class="text-lg font-medium my-5">We supply highly quality organic products</p>
                             <button
-                                class="btn btn-error rounded-full text-white text-lg font-extrabold text-center px-7">Shop
+                                class="btn btn-error rounded-full text-white text-lg font-extrabold text-center px-7 h-16">Shop
                                 Now</button>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                             </h1>
                             <p class="text-lg font-medium my-5">We supply highly quality organic products</p>
                             <button
-                                class="btn btn-error rounded-full text-white text-lg font-extrabold text-center px-7">Shop
+                                class="btn btn-error rounded-full text-white text-lg font-extrabold text-center px-7 h-20">Shop
                                 Now</button>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
         <!-- bottom part of the banner -->
 
         <section class="relative -mt-52 drop-shadow-xl text-center">
-            <div class="md:flex justify-center h-[250px] w-[1200px] bg-white mx-auto items-center gap-16 rounded-lg font-semibold">
+            <div class="hidden lg:flex justify-center h-[250px] w-[1200px] bg-white mx-auto items-center gap-16 rounded-lg font-semibold">
                 <div>
                     <img src="./images/fruit1.png"><br>
                     <p>Angur</p>
@@ -447,7 +447,7 @@
             </div>
 
             <button
-                class="btn btn-error md:flex md:m-auto ml-20 justify-center m-auto rounded-full text-white text-lg font-extrabold px-7">Shop
+                class="btn btn-error md:flex md:m-auto ml-20 justify-center m-auto rounded-full text-white text-lg font-extrabold px-7 h-20">Shop
                 Now</button>
 
         </section>
@@ -456,7 +456,7 @@
 
         <section class="my-28">
             <!-- text part -->
-            <div class="hero md:h-[700px]" style="background-image: url(./images/team.png);">
+            <div class="hero lg:h-[700px]" style="background-image: url(./images/team.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-white">
                     <div>
@@ -464,7 +464,7 @@
                         <p class="mb-5 text-base">Contrary to popular belief, is not simply random text. It has roots in
                             a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
 
-                        <div class="md:flex">
+                        <div class="lg:flex">
                             <!-- member 1 -->
                             <div class="card w-72">
                                 <figure class="px-10 pt-10">
@@ -538,13 +538,15 @@
 
             <!-- text section -->
 
-            <h2 class="font-extrabold text-5xl my-5">Why Choose Us?</h2>
-            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin
-                literature from 45 BC, making it over 2000 years old.</p>
+            <div class="w-96 lg:w-auto">
+                <h2 class="font-extrabold text-5xl my-5">Why Choose Us?</h2>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin
+                    literature from 45 BC, making it over 2000 years old.</p>
+            </div>
 
             <div class="my-20">
 
-                <div class="flex w-full">
+                <div class="lg:flex w-full">
 
                     <!-- left side -->
 
@@ -606,14 +608,14 @@
 
     </main>
 
-    <footer class="footer footer-center p-24 pb-0 bg-[#121212] text-base-content text-white h-[500px] mt-32">
+    <footer class="footer footer-center p-24 pb-0 bg-[#121212] text-base-content text-white lg:h-[500px] mt-32">
         <!-- logo -->
-        <div class="flex gap-4">
+        <div class="lg:flex gap-4">
             <img src="./images/logo.png">
             <h3 class="font-bold text-5xl">Fruit Burst</h3>
         </div>
         <!-- links -->
-        <div class="flex gap-10 text-lg font-semibold">
+        <div class="lg:flex lg:gap-10 text-lg font-semibold">
             <a class="link link-hover">Home</a>
             <a class="link link-hover">About Us</a>
             <a class="link link-hover">Shop</a>
